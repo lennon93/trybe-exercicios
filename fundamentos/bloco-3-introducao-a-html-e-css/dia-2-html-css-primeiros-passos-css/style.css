@@ -1,0 +1,35 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+body{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 120%;
+    text-align: justify;
+    text-decoration: overline;
+
+}
+li{
+    background-color: red ;
+}
+p, ul {
+    background-color: aqua;
+}
+p{
+    font-size: 3em;
+
+
+}
+.red {
+    background-color: red;
+}
+.brown {
+    background-color: brown;
+}
+.yellow {
+    background-color: yellow;
+}
