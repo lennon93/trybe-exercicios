@@ -1,0 +1,60 @@
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    position: fixed;
+  
+}
+nav {
+    background-color: aqua; 
+    width: 100%;
+    padding: 3px;
+    position: fixed;
+    
+}
+
+.video {
+    text-align: center;
+
+}
+
+.mainimage {
+    background-color: brown;
+    width: 100%;
+}
+
+
+
+.image {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+aside {
+    width: 30%;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    top: 0px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-style: solid;
+}
+
+
+
+table {
+
+    width: 100%;
+    
+}
+
