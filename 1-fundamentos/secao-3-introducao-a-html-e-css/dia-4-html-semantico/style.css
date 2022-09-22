@@ -1,24 +1,36 @@
-header, footer {
-    background-color: aquamarine;
-    margin: 0px;
-    padding: 10px;
-    text-align: center;
 
+header {
+    background-color: aquamarine;
+    text-align: center;
+    width: 100%;
+    padding: 3px;
+    position: fixed;
+    display: block;
 }
 nav {
-    background-color: aqua;
+    background-color: aqua; 
+    width: 100%;
     padding: 3px;
+    position: absolute;
+    display: block;
 }
+
 .video {
     text-align: center;
 
 }
 
 aside {
-    float: right;
+    width: 50%;
     
 }
 
-.image {
-    float: left;
+img {
+  
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-style: solid;
 }
