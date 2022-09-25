@@ -29,3 +29,22 @@ if(nota >= 80) {
 } else {
     console.log('Você foi reprovado!')
 }
+
+//===================================================//
+
+let currenthour = 23;
+let message;
+
+if (currenthour >= 22) {
+    message = 'Não deveriamos comer nada, é hora de dormir!';
+} else if (currenthour >= 18 && currenthour < 22) {
+    message = 'Rango da noite, vamos jantar :D';
+} else if (currenthour >= 14 && currenthour < 18) {
+    message = 'Vamos fazer um bolo pro café da tarde?';
+} else if (currenthour >= 11 && currenthour < 14) {
+    message = 'Hora do almoço';
+} else if (currenthour >= 4 && currenthour < 11) {
+    message = 'Hmmm, cheiro de café recém-passado!';
+}
+
+console.log(message)
