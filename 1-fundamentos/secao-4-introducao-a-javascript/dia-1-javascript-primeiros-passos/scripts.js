@@ -80,3 +80,19 @@ switch (approve) {
 
 //===================================================//
 
+let a = 15;
+let b = 7;
+
+let adiction = a + b;
+let subtraction = a - b;
+let division = a / b;
+let multiplication = a * b;
+let modulo = a % b;
+
+console.log(adiction);
+console.log(subtraction);
+console.log(division);
+console.log(multiplication);
+console.log(modulo);
+
+//===================================================//
