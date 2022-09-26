@@ -226,3 +226,50 @@ if(numberOdd % 2 !== 0 || numberOdd2 % 2 !== 0 || numberOdd3 % 2 !== 0 ) {
 }
 
 //===================================================//
+
+let productCost = 10;
+let sellValue = 20;
+let amountProduct = 1000;
+let totalCost = productCost + (productCost * 0.2);
+let profit = sellValue - totalCost;
+
+if (productCost > 0 && sellValue > 0 && amountProduct > 0) {
+    let totalProfit = amountProduct * profit;
+    console.log('Seu Lucro na venda de: ' + amountProduct + ' produtos, é de: ' + totalProfit + ' reais')
+} else {
+    console.log('Valores inválidos!')
+}
+
+//===================================================//
+
+
+let grossSalary = 3000.00;
+let inss;
+let incomeTax;
+
+if (grossSalary <= 1556.94){
+    inss = grossSalary * 0.08;
+} else if (grossSalary > 1556.94 && grossSalary <= 2594.92){
+    inss = grossSalary * 0.09;
+} else if (grossSalary > 2594.92 && grossSalary <= 5189.82){
+    inss = grossSalary * 0.11;
+} else {
+    inss = 570.88;
+}
+
+let baseSalary = grossSalary - inss;
+
+if (baseSalary <= 1903.98){
+    incomeTax = 0;
+} else if (baseSalary > 1903.98 && baseSalary <= 2826.95){
+    incomeTax = (baseSalary * 0.075) - 142.80;
+} else if (baseSalary > 2826.95 && baseSalary <= 3751.05){
+    incomeTax = (baseSalary * 0.15) - 354.80;
+} else if (baseSalary > 3751.05 && baseSalary <= 4664.68){
+    incomeTax = (baseSalary * 0.225) - 636.16;
+} else {
+    incomeTax = (baseSalary * 0.275) - 869.36; 
+}
+
+let liquidSalary = baseSalary - incomeTax;
+console.log('O salário líquido é de: ' + liquidSalary + ' reais')
