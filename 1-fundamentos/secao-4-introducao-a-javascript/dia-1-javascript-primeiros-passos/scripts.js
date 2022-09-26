@@ -181,4 +181,48 @@ switch (result) {
         console.log('Informação incorreta!') ;               
     }
 
-//===================================================//    
+//===================================================//
+
+let note = 95;
+
+if (note <= 100 && note >= 90){
+    console.log('Sua nota é A!')
+} else if (note < 90 && note >= 80){
+    console.log('Sua nota é B!')
+} else if (note < 80 && note >= 70){
+    console.log('Sua nota é C!')
+} else if (note < 70 && note >= 60){
+    console.log('Sua nota é D!')
+} else if (note < 60 && note >= 50){
+    console.log('Sua nota é E!')
+} else if (note < 50 && note >= 0){
+    console.log('Sua nota é F!')
+} else {
+    console.log('Nota inválida!')
+}
+
+//===================================================//
+
+let numberPair = 5;
+let numberPair2 = 20;
+let numberPair3 = 0;
+
+if(numberPair % 2 === 0 || numberPair2 % 2 === 0 || numberPair3 % 2 === 0 ) {
+    console.log("Um dos números é par!")
+} else {
+    console.log("Nenhum dos números é par!")
+}
+
+//===================================================//
+
+let numberOdd = 10;
+let numberOdd2 = 20;
+let numberOdd3 = 0;
+
+if(numberOdd % 2 !== 0 || numberOdd2 % 2 !== 0 || numberOdd3 % 2 !== 0 ) {
+    console.log("Um dos números é impar!")
+} else {
+    console.log("Nenhum dos números é impar!")
+}
+
+//===================================================//
