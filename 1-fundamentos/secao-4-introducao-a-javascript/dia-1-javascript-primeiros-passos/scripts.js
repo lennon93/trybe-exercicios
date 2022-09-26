@@ -96,3 +96,14 @@ console.log(multiplication);
 console.log(modulo);
 
 //===================================================//
+
+let number1 = 10;
+let number2 = 1000;
+
+if(number1 > number2) {
+    console.log("O número 1 é maior que o número 2!")
+} else if(number2 > number1) {
+    console.log("O número 2 é maior que o número 1!")
+} else {
+    console.log('Os números são iguais!')
+}
