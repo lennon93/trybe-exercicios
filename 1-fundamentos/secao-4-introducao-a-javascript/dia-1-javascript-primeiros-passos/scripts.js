@@ -48,3 +48,35 @@ if (currenthour >= 22) {
 }
 
 console.log(message)
+
+//===================================================//
+
+
+let weekDay = 'quarta-feira';
+
+if (weekDay === 'segunda-feira' || 'terça-feira' || 'quarta-feira' || 'quinta-feira' || 'sexta-feira') {
+    console.log('Oba, mais um dia de aprendizado na Trybe!')
+} else {
+    console.log('FINALMENTE, descanso merecido!')
+}
+
+//===================================================//
+
+let approve = 'aprovada';
+
+switch (approve) {
+    case 'aprovada':
+       console.log('Parabéns, você foi aprovada(o)!'); 
+        break;
+    case 'lista':
+        console.log('Você está na lista de espera.'); 
+         break;
+    case 'reprovada':
+         console.log('Você foi reprovada(o)') ;
+          break;
+    default:
+        console.log('Informação incorreta!') ;               
+    }
+
+//===================================================//
+
