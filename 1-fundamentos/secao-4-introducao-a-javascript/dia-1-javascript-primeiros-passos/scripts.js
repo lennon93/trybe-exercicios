@@ -107,3 +107,78 @@ if(number1 > number2) {
 } else {
     console.log('Os números são iguais!')
 }
+
+//===================================================//
+
+
+let number3 = 10;
+let number4 = 100;
+let number5 = 1000;
+
+
+if(number3 > number4 && number3 > number5) {
+    console.log("O número 3 é o maior número!")
+} else if(number4 > number5 && number4 > number3) {
+    console.log("O número 4 é o maior número!")
+} else if(number5 > number3 && number5 > number4) {
+    console.log("O número 5 é o maior número!")
+} else {
+    console.log('Os números empatam como o maior!')
+}
+
+//===================================================//
+
+let number6 = 1000;
+
+if(number6 > 0) {
+    console.log("O número 6 é positivo!")
+} else if(number6 < 0) {
+    console.log("O número 6 é negativo!")
+} else {
+    console.log('O número é igual a zero')
+}
+
+//===================================================//
+
+let angle1 = 0;
+let angle2 = 90;
+let angle3 = 80;
+
+
+if(angle1 > 0 && angle2 > 0 && angle3 > 0 && angle1 + angle2 + angle3 === 180) {
+    console.log("Esses ângulos formam um triângulo retangulo!")
+} else if(angle1 > 0 && angle2 > 0 && angle3 > 0 && angle1 + angle2 + angle3 !== 180) {
+    console.log("Esses ângulos não formam um triângulo retangulo!")
+}  else {
+    console.log('Ângulo inválido!')
+}
+
+//===================================================//
+
+let piece = 'King';
+let result = piece.toLowerCase();
+
+switch (result) {
+    case 'bishop':
+       console.log('Diagonais!'); 
+        break;
+    case 'rook':
+        console.log('Horizontais e verticais'); 
+         break;
+    case 'pawn':
+         console.log('uma casa a frente e come em diagonal') ;
+          break;
+    case 'horse':
+    console.log('formando um "L"'); 
+        break;
+    case 'queen':
+        console.log('Horizontal, vertical e diagonal'); 
+        break;
+    case 'king':
+        console.log('uma casa na horizontal, vertical e diagonal') ;
+        break;
+    default:
+        console.log('Informação incorreta!') ;               
+    }
+
+//===================================================//    
