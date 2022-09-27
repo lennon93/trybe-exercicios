@@ -18,3 +18,20 @@ for (let index = word.length-1; index >= 0; index -= 1) {
 console.log(reverseWord);
 
 //=========================================//
+
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+let biggestWord = array[0];
+let smallestWord = array[0];
+
+
+for (index = 0; index < array.length; index +=1) {
+    if (array[index].length > biggestWord.length) {
+        biggestWord = array[index];
+    }  if (array[index].length < smallestWord.length) {
+        smallestWord = array[index];
+}
+   
+}
+console.log(biggestWord);
+console.log(smallestWord);
+
