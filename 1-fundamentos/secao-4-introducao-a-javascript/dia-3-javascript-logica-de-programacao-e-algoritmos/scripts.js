@@ -50,3 +50,35 @@ for (let currentNumber = 2; currentNumber <= 7; currentNumber += 1) {
 }
 
 console.log(biggestPrimeNumber);
+
+//=========================================//
+
+let n = 5;
+let asterisk = '*';
+let line = '';
+
+
+
+for (let index = 0; index < n; index +=1) {
+    line += asterisk;
+}for (let index2 = 0; index2 < n; index2 +=1) {
+    console.log(line);
+}
+
+let n2 = 5;
+let asterisk2 = '*';
+let line2 = '';
+
+for (let index = 0; index <= n2; index +=1) {
+    console.log(line2);   
+    line2 += asterisk2;    
+}
+
+let n3 = 5;
+let asterisk3 = '*';
+let line3 = '';
+
+for (let index = 0; index <= n3; index +=1) {
+    console.log(line3);   
+    line3 += asterisk3;    
+}
