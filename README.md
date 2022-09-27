@@ -30,7 +30,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção: Introdução à JavaScript
 
 - [x] 3-1: _JavaScript - Primeiros passos_
-- [ ] 3-2: _JavaScript - Array e loop For_
-- [ ] 3-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 3-4: _JavaScript - Objetos e funções_
-- [ ] 3-5: _Projeto - Playground Functions_
+- [x] 3-2: _JavaScript - Array e loop For_
+- [x] 3-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [x] 3-4: _JavaScript - Objetos e funções_
+- [x] 3-5: _Projeto - Playground Functions_
