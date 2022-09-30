@@ -61,4 +61,21 @@ let car = {
  
  //console.log(biggestInteger([1,2,3]));
 
+ function biggestWord (word) {
+  let wordTaken = '';
+  let amountCharacter = 0;
+  for (let index = 0; index < word.length; index += 1){
+    if (word[index].length > amountCharacter) {
+      amountCharacter = word[index].length;
+      wordTaken = word[index];
+    }
+  }
+    return wordTaken;
+ }
+
+
+ //console.log(biggestWord(['queijo', 'ovo', 'agua']));
+
+
  
+
