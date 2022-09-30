@@ -12,7 +12,7 @@ let car = {
   };
 
   for(let key in car) {
-    console.log(key, car[key]);
+    //console.log(key, car[key]);
   }
 
   function sum(num1, num2) {
@@ -35,4 +35,30 @@ let car = {
     return num1 % num2;
   }
 
- console.log(sum(5,2));
+ //console.log(sum(5,2));
+
+ function verificaPalindrome(word) {
+  let wordNew = word.split('');
+  let reverse = wordNew.reverse();
+  let reverseWord = reverse.join('');
+  if (reverseWord === word) {
+    return true;
+  } 
+  return false;
+ }
+
+
+ //console.log(verificaPalindrome('arara'));
+
+
+ function biggestInteger(arrayInteger) {
+   let biggestNumber = Math.max(...arrayInteger);
+    let indexInteger = arrayInteger.indexOf(biggestNumber);
+    return indexInteger;
+ }
+ 
+ 
+ 
+ //console.log(biggestInteger([1,2,3]));
+
+ 
