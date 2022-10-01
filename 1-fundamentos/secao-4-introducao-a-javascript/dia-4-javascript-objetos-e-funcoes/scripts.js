@@ -102,5 +102,15 @@ let car = {
   return contNumero;
 }
 
-console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3])); // 2
+//console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3])); // 2
+
+function sumNumero(num){
+  let resultNumber = 0;
+  for (let index = 1; index <= num; index += 1){
+      resultNumber += index;
+  }
+  return resultNumber;
+}
+
+console.log(sumNumero(5));
 
