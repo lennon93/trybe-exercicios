@@ -133,5 +133,42 @@ function verificaFimPalavra(palavra, fimPalavra) {
   return result;
 }
 
-console.log(verificaFimPalavra('trybe', 'be')); //true
-console.log(verificaFimPalavra('joaofernando', 'fernan')); //false
+//console.log(verificaFimPalavra('trybe', 'be')); //true
+//console.log(verificaFimPalavra('joaofernando', 'fernan')); //false
+
+
+function romanToDecimal(romanNumber) {
+  let numerosRomanos = {
+    i: 1,
+    v: 5,
+    x: 10,
+    l: 50,
+    c: 100,
+    d: 500,
+    m: 1000,
+  };
+
+  romanNumber = romanNumber.toLowerCase();
+  let len = romanNumber.length;
+  let sum = numerosRomanos[romanNumber[len - 1]];
+  let atual = numerosRomanos[romanNumber[len - 1]];
+
+  for (let index = 2; index <= len; index += 1) {
+    const prox = numerosRomanos[romanNumber[len - index]];
+
+    if (atual <= prox) {
+      sum += prox;
+    } else {
+      sum -= prox;
+    }
+
+    atual = prox;
+  }
+
+  return sum;
+}
+
+console.log(romanToDecimal('MMMM')); // 2018
+console.log(romanToDecimal('VI')); // 6
+console.log(romanToDecimal('IV')); // 4
+
