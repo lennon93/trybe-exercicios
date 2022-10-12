@@ -3,7 +3,34 @@
 }
 
 fieldset {
-    width: 80%;
+    width: 95%;
     margin: auto;
     text-align: left;
+    background-color: rgb(121, 156, 68);
+    padding: 5px;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(121, 156, 68);
+}
+
+body {
+    background-color: rgb(41, 66, 4);
+}
+
+textarea {
+    text-align: left;
+}
+
+input {
+    text-align: left;
+}
+
+footer {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: rgb(121, 156, 68);
+    text-align: center;
 }
