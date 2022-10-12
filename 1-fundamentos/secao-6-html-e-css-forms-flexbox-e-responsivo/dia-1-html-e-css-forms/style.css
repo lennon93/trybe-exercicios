@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+}
+
+fieldset {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
