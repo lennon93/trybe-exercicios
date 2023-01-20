@@ -104,34 +104,52 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 13-1: _Metodologias Ágeis_
 - [x] 13-2: _Projeto Front-End Store_
 
+##### Seção: Componentes com Estado, Eventos e Formulários com React
+
+- [x] 11-1: _Componentes com estado e eventos_
+- [x] 11-2: _Formulários no React_
+- [x] 11-3: _Projeto Tryunfo_
+
+##### Seção: Ciclo de Vida de Componentes e React Router
+
+- [x] 12-1: _Ciclo de vida de componentes_
+- [x] 12-2: _React router_
+- [x] 12-3: _Projeto Trybetunes_
+
+##### Seção: Metodologias Ágeis
+
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _Projeto Front-End Store_
+
 ##### Seção: Testes automatizados com React Testing Library
 
-- [x] 11-1: _RTL - Primeiros passos_
-- [x] 11-2: _RTL - Mocks e Inputs_
-- [x] 11-3: _RTL - Testando React Router_
-- [x] 11-4: _Projeto - Testes em React_
+- [x] 14-1: _RTL - Primeiros passos_
+- [x] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-3: _RTL - Testando React Router_
+- [x] 14-4: _Projeto - Testes em React_
 
 ##### Seção: Gerenciamento de estado com Redux
 
-- [ ] 12-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 12-2: _Usando o Redux no React_
-- [ ] 12-3: _Usando o Redux no React na pratica_
-- [ ] 12-4: _Usando o Redux no React ações assíncronas_
-- [ ] 12-5: _Testes em React-Redux_
-- [ ] 12-6: _Projeto - Trybewallet_
+- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [ ] 15-2: _Usando o Redux no React_
+- [ ] 15-3: _Usando o Redux no React na pratica_
+- [ ] 15-4: _Usando o Redux no React ações assíncronas_
+- [ ] 15-5: _Testes em React-Redux_
+- [ ] 15-6: _Projeto - Trybewallet_
 
 ##### Seção: Projeto Jogo de Trivia 
 
-- [ ] 13-1: _Projeto Jogo de Trivia_
+- [ ] 16-1: _Projeto Jogo de Trivia_
 
 ##### Seção: Context API e React Hooks
 
-- [ ] 14-1: _React Hooks - useState e useEffect_
-- [ ] 14-2: _Context API_
-- [ ] 14-3: _Custom Hooks_
-- [ ] 14-4: _ Projeto - StarWars Datatable com Context API e Hooks_
+- [ ] 17-1: _React Hooks - useState e useEffect_
+- [ ] 17-2: _Context API_
+- [ ] 17-3: _Custom Hooks_
+- [ ] 17-4: _ Projeto - StarWars Datatable com Context API e Hooks_
 
 ##### Seção: Projeto - App de Receitas
 
-- [ ] 15-1: _Projeto - App de Receitas_
+- [ ] 18-1: _Projeto - App de Receitas_
+
 
