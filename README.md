@@ -70,7 +70,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-6: _Projeto Zoo functions_
 
 
-##### Front-End
+## Front-End :white_check_mark:
 
 
 ##### Seção: Introdução ao Frontend e JavaScript assíncrono
