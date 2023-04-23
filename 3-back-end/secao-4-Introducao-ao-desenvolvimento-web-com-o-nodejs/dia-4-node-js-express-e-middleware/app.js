@@ -1,12 +1,14 @@
 const express = require('express');
-const validatePrice = require('./middlewares/validatePrice');
+const validateDescription = require('./middlewares/validateDescription');
 const validateName = require('./middlewares/validateName');
+const validatePrice = require('./middlewares/validatePrice');
 
 const app = express();
 
 app.use(express.json());
 
 app.post('/activities',
+  validateDescription,
   validatePrice,
   validateName,
   (_req, res) => {
