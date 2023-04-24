@@ -1,7 +1,7 @@
-// const express = require('express');
+const express = require('express');
 const tasksDB = require('../db/tasksDB');
 
-// const router = express.Router();
+const router = express.Router();
 
 router.post('/', async (req, res) => {
   const task = req.body;
