@@ -130,26 +130,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Seção: Gerenciamento de estado com Redux
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _Usando o Redux no React na pratica_
-- [ ] 15-4: _Usando o Redux no React ações assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _Projeto - Trybewallet_
+- [x] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 15-2: _Usando o Redux no React_
+- [x] 15-3: _Usando o Redux no React na pratica_
+- [x] 15-4: _Usando o Redux no React ações assíncronas_
+- [x] 15-5: _Testes em React-Redux_
+- [x] 15-6: _Projeto - Trybewallet_
 
 ##### Seção: Projeto Jogo de Trivia 
 
-- [ ] 16-1: _Projeto Jogo de Trivia_
+- [x] 16-1: _Projeto Jogo de Trivia_
 
 ##### Seção: Context API e React Hooks
 
-- [ ] 17-1: _React Hooks - useState e useEffect_
-- [ ] 17-2: _Context API_
-- [ ] 17-3: _Custom Hooks_
-- [ ] 17-4: _ Projeto - StarWars Datatable com Context API e Hooks_
+- [x] 17-1: _React Hooks - useState e useEffect_
+- [x] 17-2: _Context API_
+- [x] 17-3: _Custom Hooks_
+- [x] 17-4: _ Projeto - StarWars Datatable com Context API e Hooks_
 
 ##### Seção: Projeto - App de Receitas
 
-- [ ] 18-1: _Projeto - App de Receitas_
+- [x] 18-1: _Projeto - App de Receitas_
 
 
